@@ -1,0 +1,55 @@
+/* DEVELOPER: Yonas Jlelaty, IS117-102, Spring 2025 */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background: url('images/background.jpg') center center/cover no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px; /* Adds separation between Jumbotron and cards */
+  }
+  
+  /* Cards Section */
+  .container .row .card {
+    margin-bottom: 30px; /* Adds spacing under each card */
+    height: 100%; /* Ensures cards grow equally */
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
